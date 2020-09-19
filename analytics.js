@@ -33,9 +33,9 @@ export default class Analytics {
         this.options = options;
         this.clientId = Constants.installationId;
         this.parameters = {
-            an: Constants.manifest.name,
-            aid: Constants.manifest.slug,
-            av: Constants.manifest.version,
+            // an: Constants.manifest.name,
+            // aid: Constants.manifest.slug,
+            // av: Constants.manifest.version,
             sr: `${width}x${height}`,
             ...additionalParameters
         };
